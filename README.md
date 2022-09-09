@@ -33,4 +33,3 @@ Open [http://localhost:3005/](http://localhost:3005/) to view it in the browser.
 # UI result
 
 ![Captura de pantalla 2022-09-09 a las 8 18 14](https://user-images.githubusercontent.com/13761014/189284918-511063c5-a369-493f-8271-6dce0a52545d.png)
-2bce3d9.png)
