@@ -1,0 +1,49 @@
+@import '../../../styles/index.scss';
+
+.sf-container {
+  background-color: $color-background-secondary;
+  width: 100%;
+  display: flex;
+  color: $color-text-primary-alt;
+
+  h1,
+  h2 {
+    font-size: $font-size-title;
+  }
+
+  h1 {
+    margin-bottom: 0;
+  }
+  h2 {
+    margin-top: 0;
+  }
+
+  .sf-container-jumbotron {
+    width: 100%;
+    padding: 20px;
+    background-image: linear-gradient(to right, $color-turqueise, $color-lemon-trans),
+      url('../../../../../assets/background.png');
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    &__header {
+      margin-bottom: 40px;
+      text-align: left;
+    }
+
+    &__form {
+      display: flex;
+      width: 860px;
+
+      &-item {
+        margin-right: 10px;
+
+        &--centered {
+          margin-top: 2px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+@import '../../../styles/index.scss';
+
+.la-container {
+  font-size: $font-size-regular;
+  width: 250px;
+
+  .la-header {
+    height: 44px;
+  }
+
+  .la-list {
+    background-color: $color-background-terciary;
+    color: $color-text-default;
+    max-height: 600px;
+    margin-top: -2px;
+    padding: 0;
+    margin: -2px 2px 0 2px;
+    text-align: left;
+
+    li {
+      cursor: pointer;
+      padding: 10px;
+      list-style-type: none;
+      border: 1px solid $color-border-default;
+      border-top: 0;
+
+      &:hover {
+        background-color: $color-background-secondary;
+      }
+    }
+  }
+}

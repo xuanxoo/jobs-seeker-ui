@@ -1,0 +1,41 @@
+@import '../../../styles/index.scss';
+
+$element-padding: 8px;
+$border: 1px solid $color-border-default;
+
+.cl-container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 2px;
+  color: $color-text-default;
+  background-color: $color-background-terciary;
+  font-size: $font-size-regular;
+
+  .cl-header {
+    padding: $element-padding;
+    display: flex;
+    border-bottom: $border;
+    border-top: $border;
+
+    &__title--bold {
+      font-weight: bold;
+    }
+  }
+
+  .cl-content {
+    padding: $element-padding;
+    text-align: left;
+
+    &__list {
+      display: flex;
+      flex-wrap: wrap;
+      overflow-y: auto;
+      flex-grow: 1;
+    }
+
+    &__item {
+      flex: 0 0 50%;
+      padding-bottom: 14px;
+    }
+  }
+}

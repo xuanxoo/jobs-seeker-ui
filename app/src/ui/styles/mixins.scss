@@ -1,0 +1,4 @@
+@mixin borderStyling($border: 3px) {
+  border: $border solid $color-grey-trans;
+  border-radius: 3px;
+}
